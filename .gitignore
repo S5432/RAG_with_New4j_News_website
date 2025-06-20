@@ -136,6 +136,20 @@ ENV/
 env.bak/
 venv.bak/
 
+Demo_News_RAG_Neo4j_Version_1/.env/
+Demo_News_RAG_Neo4j_Version_1/.env
+.env/
+.env
+env/
+
+Demo_News_RAG_Neo4j_Version_1/pawanputra_env/
+.Demo_News_RAG_Neo4j_Version_1/pawanputra_env/
+.Demo_News_RAG_Neo4j_Version_1/pawanputra_env
+.pawanputra_env
+pawanputra_env/
+.pawanputra_env/
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
