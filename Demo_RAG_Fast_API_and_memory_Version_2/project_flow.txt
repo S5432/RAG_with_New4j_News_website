@@ -1,0 +1,22 @@
+# In this project I convert the normal langchain RAG application code into the Fast API endpints and 
+# Then i add conversation buffer window memory to to give the memory to LLM so it can be able to give the 
+# answer in contextual response.
+
+# In this demo currently i did not get answerr about the schema of the data i get error like this:
+
+1. Which articles lack a description field?
+Result was not expected by me : Error: 500 Server Error: Internal Server Error for url: http://localhost:8000/query
+
+2. What fields does each record include?
+Result was not expected by me: Error: 500 Server Error: Internal Server Error for url: http://localhost:8000/query
+
+
+## whenever running this file create virtual env and .env file for storing the LLM keys and Neo4j credentials.
+# Next step :  I want to use redis to give the faster response.
+
+how to run demo of the product: 
+1. terminal >> (hmj_env) PS D:\Advance Research on News Rag\news_rag_fastapi\backend> uvicorn app:app --reload
+
+then run this command on other terminal.
+
+2. terminal 2 >> (hmj_env) PS D:\Advance Research on News Rag\news_rag_fastapi\frontend> streamlit run streamlit_app.py
