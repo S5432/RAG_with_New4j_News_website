@@ -1,0 +1,16 @@
+beautifulsoup4
+requests
+pymongo
+python-dateutil
+langchain==0.3.25 
+langchain-community==0.3.25 
+langchain-google-genai==2.1.5 
+langchain-experimental==0.3.4 
+python-dotenv==1.0.1 
+openai==1.18.0
+streamlit==1.32.2
+fastapi
+uvicorn
+httpx
+pydantic
+faiss-cpu
